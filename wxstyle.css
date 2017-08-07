@@ -1,0 +1,112 @@
+body {
+  background-image: url("https://images4.alphacoders.com/101/101504.jpg");
+/*   background-image: url("http://drive.google.com/uc?id=0B73GTEesc6fzVlZmaWt0TkZxLU0"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0c3c8f;
+  color: white;
+  font-family: "Dosis", "Roboto", sans-serif;
+  font-size: 1.7em;
+}
+
+/* Next two classes are to set a sticky footer with Flexbox https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+/* end of sticky footer code */
+
+h1 {
+  font-size: 7em;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+/*change orientation on small screens */
+@media all and (max-width: 775px) {   
+  .flex-container {
+     -webkit-flex-direction: column;
+    flex-direction: column; 
+    -wedkit-align-items: center;
+    align-items: center;
+    min-width: auto;
+    min-height: 500px;
+    max-height: auto;   
+  }
+}
+
+
+.flex-container {
+  display: -webkit- flex;
+  display: flex;
+  min-width: 800;
+  min-height: 500px;
+  max-height: auto;
+  margin: auto;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.flex-item {  
+  display: flex;
+  background: rgba(255, 255, 255, 0.8);
+  min-width: 240px;
+  max-width: 240px;
+  min-height: 240px;
+  max-height: 240px;
+  flex-grow: 1; 
+  margin: 10px;
+  color: black;
+  font-size: 1.4em;
+  text-align: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.wxBox {
+   -webkit-flex-direction: column;
+    flex-direction: column; 
+}
+#buttonBox {
+  font-size: .9em;
+  align-item: center;
+  margin: 10px
+}
+
+#tempC {
+  display: none;
+}
+
+
+footer {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: grey;
+  padding: 5px 0px 0px 5px;
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+footer a, footer a:visited {
+  color: grey;
+  text-decoration: none;
+} 
+
+footer a:hover {
+  color: blue;
+  text-decoration: none;
+}
