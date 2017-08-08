@@ -16,29 +16,7 @@ $("document").ready(function() {
   } // end of if (navigator.gelocation) function
 }); // End of document.ready function
 
-//   This code works great, but isn't set to a variable. I thought I may  need to access the data outside the function so I re-wrote code.
-/* function getJSONData() {
-  var darkSkyAPI="https://crossorigin.me/https://api.darksky.net/forecast/c7de955501a4bd7fb57b753a96fbb6f2/" + x + "," + y;
 
-  $.getJSON(darkSkyAPI, function(data) {
-    var temp = data.currently.temperature;
-    temp = Math.round(temp);
-    var dewPoint = data.currently.dewPoint;
-    dewPoint = Math.round(dewPoint);
-    var timezone = data.timezone;
-    var scale;
-    scale = "F";
-
-    // var time = data.currently.time.minute; // need to convert
-    $("#forecast").append("Timezone: " + timezone + "<br>");
-    $("#forecast").append("Current temp: " + temp + scale + "<br>");
-    $("#forecast").append("Dew Point: " + dewPoint + scale + "<br>");
-    
-    //     $("#forecast").append("Last update: " + time);
-    
-  }); 
-}     // end of .getJSON function
- */
 
 // main JSON API call for weather and icon data.
 function getJSONData() {
@@ -88,7 +66,7 @@ function errorFn(xhr, status, strErr) {
   console.log("There was an error!");
 }
 
-// CHANGE COORDINDATES TO LOCATION NAME ----- code from FCC chat help
+// CHANGE COORDINDATES TO LOCATION NAME 
 
 function getLocationName() {
   googleLocAPI =
