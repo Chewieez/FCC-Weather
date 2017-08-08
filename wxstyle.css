@@ -75,6 +75,7 @@ p {
   -webkit-justify-content: center;
   justify-content: center;
   align-items: center;
+  border-radius: 7px;    
 }
 
 .wxBox {
