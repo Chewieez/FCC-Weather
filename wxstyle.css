@@ -85,7 +85,7 @@ p {
 #buttonBox {
   font-size: .9em;
   align-item: center;
-  margin: 10px
+  margin: 10px;
 }
 
 .cbutton {
@@ -122,6 +122,6 @@ footer a, footer a:visited {
 } 
 
 footer a:hover {
-  color: blue;
+  color: #4d93f5;
   text-decoration: none;
 }
