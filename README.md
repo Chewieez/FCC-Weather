@@ -7,6 +7,8 @@ Deployed: https://chewieez.github.io/FCC-Weather/
 
 - User's have the ability to switch the temperature scale between fahrenheit and celsius.
 
+- Site is mobile friendly through Responsive design
+
 ## Technologies used
 FreeCodeCamp Weather API pass-through : https://fcc-weather-api.glitch.me/
 
@@ -17,6 +19,8 @@ jQuery
 Javascript HTML CSS
 
 Bootstrap 3.3.7
+
+
 
 
 ### To run locally
