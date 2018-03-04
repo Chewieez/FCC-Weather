@@ -1,54 +1,59 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="Web App to retrieve the user's local weather forecast based on their geolocation." />
-  <meta property="og:title" content="Weather Forecast App" />
-  <meta property="og:image" content="" />
-  <meta property="og:description" content="Web App to retrieve the user's local weather forecast based on their geolocation." />
-  <meta property="og:url" content="https://chewieez.github.io/fcc-weather/" />
-  <title>Local Weather Forecast</title>
-  <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="wxstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Web App to retrieve the user's local weather forecast based on their geolocation." />
+    <meta property="og:title" content="Weather Forecast App" />
+    <meta property="og:image" content="https://chewieez.github.io/FCC-Weather/img/weatherApp_small.jpg" />
+    <meta property="og:description" content="Web App to retrieve the user's local weather forecast based on their geolocation."
+    />
+    <meta property="og:url" content="https://chewieez.github.io/fcc-weather/" />
+    <title>Local Weather Forecast</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="wxstyle.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script> 
-  <script src="wxfunctions.js"></script>
-  </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="wxfunctions.js"></script>
+</head>
 
-  <body class="Site">
+<body class="Site">
     <main class="Site-content">
-      <h1 class="text-center">Local Weather</h1>
-      <br>
-      <div class="flex-container">
-        <div class="flex-item wxBox">
-          <div id="tempF">° F </div>
-          <div id="tempC">° C </div>
+        <h1 class="text-center">Local Weather</h1>
+        <br>
+        <div class="flex-container">
+            <div class="flex-item wxBox">
+                <div id="tempF">° F </div>
+                <div id="tempC">° C </div>
 
-          <div id="buttonBox" class="center-block">
-            <button class="button cbutton">C or F</button>
-          </div>
-          <p></p>
-        </div>
-   
-        <div id="wxIcon" class="flex-item">
+                <div id="buttonBox" class="center-block">
+                    <button class="button cbutton">C or F</button>
+                </div>
+            </div>
+
+            <div id="wxIcon" class="flex-item">
+            </div>
+
+            <div id="forecast" class="flex-item">
+            </div>
+
         </div>
 
-        <div id="forecast" class="flex-item">
-        </div>
-    
-      </div>
-
-      <br><br>  
+        <br>
+        <br>
 
     </main>
 
-  <footer class="footer">
-    <p>Coded by: <a href="https://www.greglawrence.me" target="_blank">Greg Lawrence</a></p>
-  </footer>
+    <footer class="footer">
+        <p>Coded by:
+            <a href="https://www.greglawrence.me" target="_blank">Greg Lawrence</a>
+        </p>
+    </footer>
 </body>
 
 </html>
